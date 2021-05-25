@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.7c06f895.chunk.css",
-    "main.js": "/static/js/main.1c49dd8f.chunk.js",
-    "main.js.map": "/static/js/main.1c49dd8f.chunk.js.map",
+    "main.js": "/static/js/main.2d70d20a.chunk.js",
+    "main.js.map": "/static/js/main.2d70d20a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2f66d327.js",
     "runtime-main.js.map": "/static/js/runtime-main.2f66d327.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
@@ -14,6 +14,7 @@
     "static/css/2.20aa2d7b.chunk.css.map": "/static/css/2.20aa2d7b.chunk.css.map",
     "static/css/main.7c06f895.chunk.css.map": "/static/css/main.7c06f895.chunk.css.map",
     "static/js/2.2fd5a5b0.chunk.js.LICENSE.txt": "/static/js/2.2fd5a5b0.chunk.js.LICENSE.txt",
+    "static/media/Araf_Rahman_CV.2a0c3c0f.pdf": "/static/media/Araf_Rahman_CV.2a0c3c0f.pdf",
     "static/media/Araf_Rahman_Resume_Official.c3f2bec5.pdf": "/static/media/Araf_Rahman_Resume_Official.c3f2bec5.pdf",
     "static/media/about.aee0f771.png": "/static/media/about.aee0f771.png",
     "static/media/araf.71289679.jpg": "/static/media/araf.71289679.jpg",
@@ -35,6 +36,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.2fd5a5b0.chunk.js",
     "static/css/main.7c06f895.chunk.css",
-    "static/js/main.1c49dd8f.chunk.js"
+    "static/js/main.2d70d20a.chunk.js"
   ]
 }
