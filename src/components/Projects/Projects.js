@@ -11,6 +11,8 @@ import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import algo from "../../Assets/Projects/algo.png";
 import plant from "../../Assets/Projects/plant.jpeg";
+import store from "../../Assets/onlinestore.png";
+
 
 function Projects() {
   return (
@@ -18,19 +20,20 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          <strong className="purple">Web Development</strong>
         </h1>
-        <p style={{ color: "white" }}>
+        {/* <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
-        </p>
+        </p> */}
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={store}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="Online Store"
+              description="Online Store build with react.js, Material-UI, and Firebase. Has features which allows REAL stripe payments, full account functionality, and can review previous orders. 
+              You can add items to cart and make orders that will save to the databse and unique to each account. It is a full stack application and can be turned into a real store."
+              link="https://online-store-9dc9d.web.app/"
             />
           </Col>
 
@@ -75,6 +78,13 @@ function Projects() {
             />
           </Col>
         </Row>
+        <h1 className="project-heading">
+          <strong className="purple">App Development</strong>
+        </h1>
+
+        <h1 className="project-heading">
+          <strong className="purple">Algorithms/Java Projects</strong>
+        </h1>
         {/* <h1 className="project-heading">
           My Recent <strong className="purple">Blog </strong> Posts
         </h1>
