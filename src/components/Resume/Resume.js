@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
 import pdf from "../../Assets/Araf_Rahman_Resume_Official.pdf";
+import cv from "../../Assets/Araf_Rahman_CV.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -35,67 +36,65 @@ function Resume() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Download Resume
+          </Button>
+        </Row><br/>
+        <Row style={{ justifyContent: "center", position: "relative" }}> 
+          <Button variant="primary" href={cv} target="_blank">
+            <AiOutlineDownload />&nbsp;Download CV
           </Button>
         </Row>
         <Row className="resume">
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="JUNIOR ML ENGINEER [Omdena]"
-              date="June 2020 - August 2020"
+              title="Dominion Energy - Software Intern"
+              date="May 2021 - August 2021"
               content={[
-                "Assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
-                " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
+                "Configured SAP Software development and Security principles, configuring roles, etc.",
+                "Collaborated with software engineers to develop and test application procedures for system efficiency.",
+              ]}
+            />
+            <Resumecontent
+              title="Naval Information Warfare Center - Software Engineering Intern"
+              date="June 2020 - October 2020"
+              content={[
+                "Participation in the Naval X project, configuration of DoD data by use of algorithms and dev techniques",
+                "Developed script code for Naval webpages and construction of User Interface",
               ]}
             />
             <h3 className="resume-title">Extracurricular Activities</h3>
             <Resumecontent
-              title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
+              title="Web Developer - Freelance"
               content={[
-                "Worked on creating the frontend-end of the website using Bootstrap, Javascript.",
+                "Worked on creating many different websites for clients, varying from their personal business to creating tools for organizations.",
               ]}
             />
             <Resumecontent
-              title="Web Developer [Bitotsav-2020 Technical Fest of BIT Mesra]"
+              title="Hackathon Participant"
               content={[
-                "Operated on developing the frontend end of the website using Bootstrap, Javascript and backend APIs using Node.js",
+                "Participated in numerous hackathons including Ramhacks, Bitcamp, HoyaHacks, etc. Most notably 2020 Ramhacks finished 3rd place for Carmax. ",
               ]}
             />
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="IMSC MATHS AND COMPUTING [BIT Mesra, Ranchi] "
-              date="2018 - Present"
-              content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
+              title="Virginia Commonwealth University"
+              date="August 2018 - December 2021"
+              content={[`Major: Computer Science`, 'Minor: Mathematics', `GPA: 3.9/4.0`, `Vice President of Pi Kappa Alpha Fraternity`]}
             />
-            <Resumecontent
-              title="12TH BOARD [ODM Public School,Odisha]"
-              date="2015 - 2017"
-              content={["Precentage: 88%"]}
-            />
-            <Resumecontent
-              title="10TH BOARD [ST Mary's School,Odisha] "
-              date="2005 - 2015"
-              content={["Precentage: 86%"]}
-            />
+            
             <h3 className="resume-title">Ranks and Achivements</h3>
             <Resumecontent
               title=""
               content={[
-                `Current rank in Spoj ${spojRank}`,
-                `Current rank in HackerRank  ${hackerrank}`,
-                "Top Performer in Code-Break 1.0",
-                "Participant in Hack-A-Bit 2019",
+                `3rd place in Ramhacks 2019`,
+                "Deans list at VCU",
+                `Finished 100+ problems on Leetcode`,
               ]}
             />
           </Col>
-        </Row>
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={pdf} target="_blank">
-          <AiOutlineDownload />&nbsp;Download CV
-          </Button>
         </Row>
       </Container>
     </Container>
