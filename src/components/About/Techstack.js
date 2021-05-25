@@ -8,6 +8,8 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
+  DiJava,
+  DiSwift,
 } from "react-icons/di";
 import { SiPytorch, SiTensorflow, SiFirebase } from "react-icons/si";
 import { withStyles, makeStyles } from '@material-ui/core/styles';
@@ -52,21 +54,31 @@ function Techstack() {
           <DiMongodb />
         </Col>
       </LightTooltip>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTensorflow />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
+      <LightTooltip title="Python">
+        <Col xs={4} md={2} className="tech-icons">
+          <DiPython />
+        </Col>
+      </LightTooltip>
+      <LightTooltip title="Java">
+        <Col xs={4} md={2} className="tech-icons">
+          <DiJava />
+        </Col>
+      </LightTooltip>
+      <LightTooltip title="Swift">
+        <Col xs={4} md={2} className="tech-icons">
+          <DiSwift />
+        </Col>
+      </LightTooltip>
+      <LightTooltip title="Github">
+        <Col xs={4} md={2} className="tech-icons">
+          <DiGit />
+        </Col>
+      </LightTooltip>
+      <LightTooltip title="Firebase">
+        <Col xs={4} md={2} className="tech-icons">
+          <SiFirebase />
+        </Col>
+      </LightTooltip>
     </Row>
   );
 }
