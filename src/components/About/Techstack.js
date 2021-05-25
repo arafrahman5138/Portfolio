@@ -10,8 +10,15 @@ import {
   DiGit,
   DiJava,
   DiSwift,
+  DiHtml5,
+  DiCss3,
+  DiMysql,
+  DiRuby,
+  DiNpm,
+  DiTerminal,
+  DiSass
 } from "react-icons/di";
-import { SiPytorch, SiTensorflow, SiFirebase } from "react-icons/si";
+import { SiPytorch, SiTensorflow, SiFirebase, SiLinux, SiHeroku, SiVisualstudiocode } from "react-icons/si";
 import { withStyles, makeStyles } from '@material-ui/core/styles';
 import Tooltip from '@material-ui/core/Tooltip';
 
@@ -69,6 +76,26 @@ function Techstack() {
           <DiSwift />
         </Col>
       </LightTooltip>
+      <LightTooltip title="HTML5">
+        <Col xs={4} md={2} className="tech-icons">
+          <DiHtml5/>
+        </Col>
+      </LightTooltip>
+      <LightTooltip title="CSS">
+        <Col xs={4} md={2} className="tech-icons">
+          <DiCss3 />
+        </Col>
+      </LightTooltip>
+      <LightTooltip title="SQL">
+        <Col xs={4} md={2} className="tech-icons">
+          <DiMysql />
+        </Col>
+      </LightTooltip>
+      <LightTooltip title="Ruby">
+        <Col xs={4} md={2} className="tech-icons">
+          <DiRuby />
+        </Col>
+      </LightTooltip>
       <LightTooltip title="Github">
         <Col xs={4} md={2} className="tech-icons">
           <DiGit />
@@ -77,6 +104,36 @@ function Techstack() {
       <LightTooltip title="Firebase">
         <Col xs={4} md={2} className="tech-icons">
           <SiFirebase />
+        </Col>
+      </LightTooltip>
+      <LightTooltip title="Linux">
+        <Col xs={4} md={2} className="tech-icons">
+          <SiLinux />
+        </Col>
+      </LightTooltip>
+      <LightTooltip title="Heroku">
+        <Col xs={4} md={2} className="tech-icons">
+          <SiHeroku />
+        </Col>
+      </LightTooltip>
+      <LightTooltip title="NPM">
+        <Col xs={4} md={2} className="tech-icons">
+          <DiNpm />
+        </Col>
+      </LightTooltip>
+      <LightTooltip title="SASS">
+        <Col xs={4} md={2} className="tech-icons">
+          <DiSass />
+        </Col>
+      </LightTooltip>
+      <LightTooltip title="Terminal">
+        <Col xs={4} md={2} className="tech-icons">
+          <DiTerminal />
+        </Col>
+      </LightTooltip>
+      <LightTooltip title="Visual Studio Code">
+        <Col xs={4} md={2} className="tech-icons">
+          <SiVisualstudiocode />
         </Col>
       </LightTooltip>
     </Row>

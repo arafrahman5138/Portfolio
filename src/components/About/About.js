@@ -36,15 +36,15 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          <strong className="purple">Skills</strong>
+          <strong className="purple">Skills and Expertise</strong>
         </h1>
 
         <Techstack />
 
-        <h1 className="project-heading">
+        {/* <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
-        <Toolstack />
+        <Toolstack /> */}
 
         {/* <Github /> */}
       </Container>
