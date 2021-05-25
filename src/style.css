@@ -374,13 +374,13 @@ html {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 15px #29cc10;
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  color: #29cc10;
+  box-shadow: 0 0 5px #29cc10;
+  text-shadow: 0 0 2px #29cc10;
 }
 
 .social-icons {
@@ -433,7 +433,7 @@ html {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: #29cc10 !important;
 }
 /* --------- */
 /* Projects */
@@ -483,13 +483,13 @@ html {
 .btn-primary {
   color: #fff !important;
   background-color: #29cc10 !important;
-  border-color: #623686 !important;
+  border-color: #29cc10 !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
   background-color:  rgb(3, 102, 252) !important;
-  border-color: #6d20c5d7 !important;
+  border-color: #29cc10 !important;
 }
 .btn:focus {
   outline: none !important;
@@ -651,7 +651,7 @@ html {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #8a49a8;
+  border: 2px solid #29cc10;
 }
 
 .like-item {
@@ -661,8 +661,8 @@ html {
 }
 
 .like-btn {
-  background-color: #934cce5e !important;
-  border-color: #934cce5e !important;
+  background-color: #29cc10 !important;
+  border-color: #29cc10 !important;
   padding: 0.25rem 0.98rem !important;
   border-radius: 5px !important;
   line-height: 1.4 !important;
@@ -671,8 +671,8 @@ html {
 
 .like-btn:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: #29cc10 !important;
+  border-color: #29cc10 !important;
 }
 
 .animate-like {
@@ -696,7 +696,7 @@ html {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #934cce5e !important;
+  background-color: #29cc10 !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -704,8 +704,8 @@ html {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: #29cc10 !important;
+  border-color: #29cc10 !important;
 }
 .fork-btn-inner::after {
   display: none !important;
