@@ -1,21 +1,20 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import algo from "../../Assets/Projects/algo.png";
-import plant from "../../Assets/Projects/plant.jpeg";
 import store from "../../Assets/onlinestore.png";
 import codeva from "../../Assets/codeva.png";
 import myweb from "../../Assets/myweb.png";
-
-
+import holes from "../../Assets/holes.png";
+import cq from "../../Assets/cq.png";
+import shop from "../../Assets/shop.png";
+import quiz from "../../Assets/quiz.png";
+import kids from "../../Assets/kidsgame.png";
+import mm from "../../Assets/mm.png";
+import gpa from "../../Assets/gpa.png";
+import balloon from "../../Assets/balloon.png";
+import matching from "../../Assets/matching.png";
 
 function Projects() {
   return (
@@ -65,10 +64,102 @@ function Projects() {
         <h1 className="project-heading">
           <strong className="purple">App Development</strong>
         </h1>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={holes}
+              isBlog={false}
+              title="Holes"
+              description="Mini-Golf phone app created using React-Native. App allows to keep track of scores with multiple users allowing interactive functionality. App uses basic navigation stacks with dynamic UI allowing a slick interactive User Interface."
+              link="https://snack.expo.io/@arafrahman/github.com-trivedism-holes475"
+            />
+          </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cq}
+              isBlog={false}
+              title="CourseQuest"
+              description=""
+              link="https://drive.google.com/file/d/1RWxHHx0IOoIHKYaZrLbS_DoWFrWjWm6Y/view?usp=sharing"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={shop}
+              isBlog={false}
+              title="Shopping Cart"
+              description=""
+              link="https://drive.google.com/file/d/1LA3ZebfuvcvKwfGXjGuH2NvWPwmA8r_w/view?usp=sharing"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gpa}
+              isBlog={false}
+              title="GPA Calculator"
+              description=""
+              link="https://drive.google.com/file/d/11RdQRwjt1BWGzI4pc2ECJstRkDmCfwwe/view?usp=sharing"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={quiz}
+              isBlog={false}
+              title="Quiz Game"
+              description=""
+              link="https://drive.google.com/file/d/1Dxl7mDX4GmdiV0wBI5ZbpiHKXSPQPAv4/view?usp=sharing"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mm}
+              isBlog={false}
+              title="Maze-Man"
+              description=""
+              link="https://drive.google.com/file/d/1ujSnxansrLf8gJjDqmZmI6vfq38xTH3q/view?usp=sharing"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={kids}
+              isBlog={false}
+              title="Memory Game"
+              description=""
+              link="https://drive.google.com/file/d/1Bx3sOY0bp25YXY1TmhYKEIfSxqFKWlk-/view?usp=sharing"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={matching}
+              isBlog={false}
+              title="Matching Game"
+              description=""
+              link="https://drive.google.com/file/d/1Bx3sOY0bp25YXY1TmhYKEIfSxqFKWlk-/view?usp=sharing"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={balloon}
+              isBlog={false}
+              title="Balloon Pop Game"
+              description=""
+              link="https://drive.google.com/file/d/1Bx3sOY0bp25YXY1TmhYKEIfSxqFKWlk-/view?usp=sharing"
+            />
+          </Col>
+
+        </Row>
         <h1 className="project-heading">
           <strong className="purple">Algorithms/Java Projects</strong>
         </h1>
+        
         {/* <h1 className="project-heading">
           My Recent <strong className="purple">Blog </strong> Posts
         </h1>

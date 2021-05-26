@@ -48,7 +48,7 @@ function Home2() {
               <Type/>
             </Tilt>
           </Col>
-        </Row>
+        </Row><br/><br/>
         <Row>
           <Col md={12} className="home-about-social">
             <h1 className="purple">CONNECT WITH ME</h1>
