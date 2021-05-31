@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.d5f62e9c.chunk.css",
-    "main.js": "/static/js/main.ed3d6c4f.chunk.js",
-    "main.js.map": "/static/js/main.ed3d6c4f.chunk.js.map",
+    "main.js": "/static/js/main.9bab2527.chunk.js",
+    "main.js.map": "/static/js/main.9bab2527.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b3cb1ce6.js",
     "runtime-main.js.map": "/static/js/runtime-main.b3cb1ce6.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
@@ -20,6 +20,7 @@
     "static/media/araf.71289679.jpg": "/static/media/araf.71289679.jpg",
     "static/media/avatar.5852f40f.svg": "/static/media/avatar.5852f40f.svg",
     "static/media/balloon.4fe19f08.png": "/static/media/balloon.4fe19f08.png",
+    "static/media/chatter.b881b53d.png": "/static/media/chatter.b881b53d.png",
     "static/media/codeva.da96a35f.png": "/static/media/codeva.da96a35f.png",
     "static/media/cq.bde5ef24.png": "/static/media/cq.bde5ef24.png",
     "static/media/gpa.a8f7022c.png": "/static/media/gpa.a8f7022c.png",
@@ -39,6 +40,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.7782ebb8.chunk.js",
     "static/css/main.d5f62e9c.chunk.css",
-    "static/js/main.ed3d6c4f.chunk.js"
+    "static/js/main.9bab2527.chunk.js"
   ]
 }
