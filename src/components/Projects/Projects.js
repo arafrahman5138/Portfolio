@@ -15,6 +15,7 @@ import mm from "../../Assets/mm.png";
 import gpa from "../../Assets/gpa.png";
 import balloon from "../../Assets/balloon.png";
 import matching from "../../Assets/matching.png";
+import chatter from "../../Assets/chatter.png";
 
 function Projects() {
   return (
@@ -28,6 +29,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p> */}
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatter}
+              isBlog={false}
+              title="Chatter"
+              description="Chat app created using React-Redux, Express, NodeJS, and MongoDB. Full stack application with realtime updates using PusherJS. Login with google and try out real updated conversations!"
+              link="https://chatter-app-123.netlify.app"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={store}
